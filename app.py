@@ -82,3 +82,9 @@ def delete_cupcake(cupcake_id):
 
 
 
+#### define the frontend from here
+
+@app.route("/")
+def homepage():
+    return render_template("homepage.html")
+    
