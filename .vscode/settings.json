@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/Users/xinjuandeng/Documents/flask-cupcakes/venv/bin/python3"
+    ,"python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask"
+    ]
+    
+
+}
+
