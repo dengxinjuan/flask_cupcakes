@@ -34,7 +34,7 @@ $("#cupcakes-list").on("click", ".delete-button", async function (evt) {
   let $cupcake = $(evt.target).closest("div");
   let cupcakeId = $cupcake.attr("data-cupcake-id");
 
-  await axios.delete(`${BASE_URL}/cupcakes/${cupcakeId}`);
+  await axios.delete(`http://127.0.0.1:5000/api/cupcakes/${cupcakeId}`);
   $cupcake.remove();
 });
 
